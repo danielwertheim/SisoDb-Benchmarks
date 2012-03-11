@@ -70,6 +70,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\InMemoryTests\InMemoryTests.csproj">
+      <Project>{8A1A6582-ABD3-4279-A981-2B560904F73F}</Project>
+      <Name>InMemoryTests</Name>
+    </ProjectReference>
     <ProjectReference Include="..\RavenDbTests\RavenDbTests.csproj">
       <Project>{B6667416-8146-4907-AF0B-B9DA1AC7E578}</Project>
       <Name>RavenDbTests</Name>

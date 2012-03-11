@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDbTests", "RavenDbTests\RavenDbTests.csproj", "{B6667416-8146-4907-AF0B-B9DA1AC7E578}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryTests", "InMemoryTests\InMemoryTests.csproj", "{8A1A6582-ABD3-4279-A981-2B560904F73F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{B6667416-8146-4907-AF0B-B9DA1AC7E578}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B6667416-8146-4907-AF0B-B9DA1AC7E578}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B6667416-8146-4907-AF0B-B9DA1AC7E578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1A6582-ABD3-4279-A981-2B560904F73F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1A6582-ABD3-4279-A981-2B560904F73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1A6582-ABD3-4279-A981-2B560904F73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1A6582-ABD3-4279-A981-2B560904F73F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

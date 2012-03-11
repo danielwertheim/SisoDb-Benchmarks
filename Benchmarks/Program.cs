@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Linq;
+using InMemoryTests;
 using RavenDbTests;
 using Shared;
 using SisoDbTests;
@@ -24,13 +25,14 @@ namespace Benchmarks
             var cmds = new[]
             {
                 new { Key = "q", A = null as Action},
+                new { Key = "i", A = (Action)RunInMemoryTests },
                 new { Key = "s", A = (Action)RunSisoDbTests },
                 new { Key = "r", A = (Action)RunRavenDbTests }
             };
 
             while (true)
             {
-                Console.Write("(S)isoDb;(R)avenDb;(Q)uit;  :>>");
+                Console.Write("(I)n memory;(S)isoDb;(R)avenDb;(Q)uit;  :>>");
                 var cmd = Console.ReadLine();
 
                 if (string.IsNullOrWhiteSpace(cmd))
@@ -40,6 +42,11 @@ namespace Benchmarks
                 if (match != null)
                     return match.A;
             }
+        }
+
+        private static void RunInMemoryTests()
+        {
+            RunTests(new InMemoryTestCases(), GetTestParams());
         }
 
         private static void RunSisoDbTests()
