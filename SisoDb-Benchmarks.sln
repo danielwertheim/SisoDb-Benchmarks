@@ -1,15 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{F4374C49-3258-4E3D-AC63-EBEA47A7DFE9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Source\Benchmarks\Benchmarks.csproj", "{F4374C49-3258-4E3D-AC63-EBEA47A7DFE9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisoDbTests", "SisoDbTests\SisoDbTests.csproj", "{36517987-F76E-4F1D-B627-97A9AD603123}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SisoDbTests", "Source\SisoDbTests\SisoDbTests.csproj", "{36517987-F76E-4F1D-B627-97A9AD603123}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{59E3CA92-42CC-41AE-8DCF-E3C1A96A28A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Source\Shared\Shared.csproj", "{59E3CA92-42CC-41AE-8DCF-E3C1A96A28A1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDbTests", "RavenDbTests\RavenDbTests.csproj", "{B6667416-8146-4907-AF0B-B9DA1AC7E578}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RavenDbTests", "Source\RavenDbTests\RavenDbTests.csproj", "{B6667416-8146-4907-AF0B-B9DA1AC7E578}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryTests", "InMemoryTests\InMemoryTests.csproj", "{8A1A6582-ABD3-4279-A981-2B560904F73F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InMemoryTests", "Source\InMemoryTests\InMemoryTests.csproj", "{8A1A6582-ABD3-4279-A981-2B560904F73F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
